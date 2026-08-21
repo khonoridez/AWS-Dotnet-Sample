@@ -1,0 +1,57 @@
+## Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+.vscode/
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Test and coverage
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local env/secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.local.json
+
+# Docker / ECS local overrides
+docker-compose.override.yml
+
+# Optional: local AWS CLI/config cache (project-local)
+.aws/
